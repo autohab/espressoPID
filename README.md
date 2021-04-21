@@ -1,6 +1,15 @@
 # espressoPID
 Arduino based Proportional Integral Derivative (PID) Controller to control a single boiler in an expresso machine. 
 
+<b>Hardware</b>
+- NodeMCU
+- Thermocouple (K type) or RTD PT100/PT1000
+- ADC and amplifier for temperature measurement
+- 40A Solid State Relay (SSR) DC controlling AC (DA)
+- OLED screen
+- Push buttons
+- Wiring harness for disconnecting Arudino cleanly.
+
 <b>Requirements</b>
 - PID auto starts on power connection
 - Should have ability to switch between brewing and steaming settings using a switch.
@@ -31,3 +40,8 @@ Arduino based Proportional Integral Derivative (PID) Controller to control a sin
   - Slider bar for brew setpoint
   - Slider bar for steam setpoint
   - Time operating 
+- Push notifications
+  - boiler at setpoint and stable.
+  - auto-tune results
+  - shot timer
+  - warnings   
